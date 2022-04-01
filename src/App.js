@@ -1,10 +1,14 @@
-import './App.css';
-import Menu from './component/menu';
-import Main from './component/main';
-
+import "./App.css";
+import React from "react";
+import { Fragment } from "react";
+import AppRouter from "./AppRouter";
 
 function App() {
-    return ( < Menu / > )
+  return (
+    <React.Fragment>
+      <AppRouter />
+    </React.Fragment>
+  );
 }
 
 export default App;

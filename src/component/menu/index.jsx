@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function Menu() {
   return (
     <div id="header">
@@ -102,28 +103,6 @@ export default function Menu() {
           </li>
         </ul>
       </nav>
-      <div>
-      <nav>
-        <a href="">Hà Nội</a>
-      </nav>
-      <section>
-        <h1>Hà Nội</h1>
-        <p>
-          Hà Nội là thủ đô của nước và cũng là kinh đô của rất nhiều vương triều
-          Việt cổ. Lịch sử Hà Nội gắn liền với sự thăng trầm của lịch sử Việt
-          Nam qua các thời kì.
-        </p>
-        <p>
-          Hiện nay, Hà Nội là thành phố lớn nhất Việt Nam về diện tích, đồng
-          thời cũng là địa phương đứng thứ nhì về dân số.
-        </p>
-        <p>
-          Hà Nội nằm giữa đồng bằng sông Hồng trù phú, nơi đây đã sớm trở thành
-          một trung tâm chính trị, kinh tế và văn hóa ngay từ những buổi đầu của
-          lịch sử Việt Nam.
-        </p>
-      </section>
-      </div>
     </div>
   );
 }

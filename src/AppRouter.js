@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Main from './component/Main.jsx';
+// import Main from './component/Main.jsx';
+import Backend from './component/Backend/index.jsx';
+
 
 // import Login from './login';
 
@@ -12,7 +14,7 @@ export default function AppRouter() {
   return (
     <Router>
     <Routes>
-         <Route path="/"  render element={<Main/>}> </Route>
+         <Route path="/"  render element={<Backend/>}> </Route>
          {/* <Route path="/admin" render element={<Admin/>}> </Route> */}
 
          {/* <Route path="/admin" render={()=>{
